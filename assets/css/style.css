@@ -1,0 +1,331 @@
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+.sea {
+    height: 100%;
+    background-color:#1B99BE;
+    background-image: url("../img/menu/mob-background.png");
+    background-size: cover;
+}
+
+.sea img {
+    margin-top: -6%;
+}
+
+.menu {
+    /* margin-top: 12%; */
+}
+
+.menu button{
+    padding: 1.5% 5%;
+    width: 200px;
+    border: none;
+    border-radius: 50pc;
+    box-shadow: 0px 5px 8px  #000;
+    color: white;
+    background-color: rgba(223, 157, 14, 0.98)
+}
+
+.menu button:hover {
+    color: white;
+    background-color: 
+}
+
+.logo{
+    margin: 8% 0 2%;
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    
+}
+
+.logo h1 {
+    margin: 2% 0 5% 0; 
+    line-height: 60px;
+    
+}
+
+.menu ul, .menu-navigation  ul {
+    list-style: none;
+    padding: 0 !important;
+}
+
+.menu ul li {
+    padding: 2% 0;
+    margin: 1% 0;
+    padding: none !important;
+}
+
+.panduan .modal-dialog, 
+.pause-menu .modal-dialog,
+.more-detail .modal-dialog, 
+.success-modal .modal-dialog,
+.error-modal .modal-dialog,
+.generate-modal .modal-dialog,
+.gameover-modal .modal-dialog,
+.win-modal .modal-dialog   {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+  
+.panduan .modal-content, 
+.pause-menu .modal-content, 
+.more-detail .modal-content, 
+.success-modal .modal-content,
+.error-modal .modal-content,
+.generate-modal .modal-content,
+.gameover-modal .modal-content,
+.win-modal .modal-content  {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+    border: none;
+}
+
+.panduan .modal-dialog .h-100, 
+.pause-menu .modal-dialog .h-100,
+.more-detail .modal-dialog .h-100, 
+.success-modal .modal-dialog .h-100,
+.error-modal .modal-dialog .h-100,
+.gameover-modal .modal-dialog .h-100,
+.win-modal .modal-dialog .h-100{
+    margin-top: 10% !important;
+    -webkit-margin-top: 10% !important;
+    -moz-margin-top: 0 !important;
+
+}
+
+
+.generate-modal .modal-dialog .h-100 {
+    margin-top: 30% !important;
+    -webkit-margin-top: 30% !important;
+    -moz-margin-top: 0 !important;
+}
+
+.xpause {
+    margin-top: 60% !important;
+}
+
+.panduan .tab-content {
+    overflow-y: auto;
+}
+
+.menu-navbar {
+    padding: 28px 4%;
+}
+
+.menu-navbar .btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50% !important;
+}
+
+.menu-navbar i {
+    line-height: 35px;
+    font-size: 1.2em;
+}
+
+.pause-menu .modal-content{
+    background-color: transparent !important;
+}
+  
+.pause-menu .row {
+    height: 100%;;
+}
+
+.pause-menu button{
+    text-align: center;
+    padding: 3% 0;
+    width: 240px;
+    border: none;
+    border-radius: 50pc;
+    box-shadow: 0px 5px 8px  #000;
+    color: white;
+}
+
+.pause-menu button:hover{
+    color: black;
+}
+
+.pause-menu ul {
+    list-style: none;
+    padding: 0 !important;
+}
+
+.pause-menu ul li {
+    padding: 2% 0;
+    margin: none !important;
+    padding: none !important;
+}
+
+.start-game .row {
+    height: inherit;
+}
+
+.start-game .row .main {
+    width: 80%;
+    height: inherit;
+    background-color: #efefef;
+}
+
+.start-game .row .sidebar {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0px 5px 8px #979797;
+    z-index: 1;
+}
+
+.start-game .step-image img{
+    height: 20%;
+    max-height: 200px;
+}
+
+.menu-navigation {
+    height: 598px;
+}
+
+.step button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 15% 0;
+}
+
+.start-game .card {
+    border: none;
+}
+
+.start-game .header .card-body {
+    display: flex;
+    border-radius: 5px;
+}
+
+.card-content-container{
+    width: 80%;
+}
+
+.card-content-container .next-break{
+    /* padding-left: 7%; */
+}
+
+.sign {
+    width: 20%;
+    font-size: 2.2em;
+    line-height: 64px;
+
+}
+.sign .success-sign{
+    color: rgb(23, 185, 63);
+}
+.sign .fail-sign{
+    color: rgb(216, 36, 51);
+}
+
+.step-image {
+    background-color: #2dbd6e;
+    padding: 10% 5%;
+}
+
+.step-text {
+    height: inherit;
+}
+
+.step-text .card-text {
+    min-height: 160px;
+    max-height: 160px;
+}
+
+.step-text button {
+    width: 180px;    
+    border-radius: 3rem;
+}
+
+.gameover {
+    background-image: url("../img/menu/mob-gameover-1.png");
+    background-size: cover;
+    background-color: #000;
+}
+
+.gameover .text-logo {
+    margin : 5% 0px;
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+}
+
+.gameover ul {
+    list-style: none;
+    padding: 0 !important;
+}
+
+.gameover ul li {
+    padding: 2% 0;
+    margin: none !important;
+    padding: none !important;;
+}
+
+.gameover button{
+    text-align: center;
+    padding: 3% 0;
+    width: 240px;
+    border: none;
+    border-radius: 50pc;
+    box-shadow: 0px 5px 8px  #000;
+    color: white;
+}
+
+.gameover button:hover{
+    box-shadow: 0px 5px 8px  #000;
+    color: black;
+}
+
+.success-modal .text-logo {
+    padding: 5% 0 ;
+}
+
+.success-modal button{
+    text-align: center;
+    padding: 2%;
+    width: 120px;
+    border: none;
+    border-radius: 50pc;
+    color: white;
+}
+
+.errorimg {
+    padding: 8% 0;
+}
+
+.error-modal button{
+    text-align: center;
+    padding: 2% ;
+    margin: 2%;
+    width: 200px;
+    border: none;
+    border-radius: 50pc;
+    color: white;
+}
+
+.error-modal button:hover{
+    color: black;
+}
+
+.win-modal .text-logo {
+    padding: 5%;    
+}
+
+.win-modal button{
+    text-align: center;
+    padding: 2% ;
+    margin: 2%;
+    width: 200px;
+    border: none;
+    border-radius: 50pc;
+    color: white;
+}
+
+.win-modal button:hover{
+    color: black;
+}
